@@ -3,6 +3,7 @@
     "target": "ES6", //dịch code Typescript kiểu ES6
     "module": "CommonJS", // CommonJs là tiêu chuẩn được sử dụng trong Node.js để làm việc với các module
     "removeComments": true, // Xóa comments khi dịch từ ts sang js
-    "esModuleInterop": true // Dùng được từ khóa import thay require
+    "esModuleInterop": true,// Dùng được từ khóa import thay require
+    "outDir": "dist"
   }
 }
